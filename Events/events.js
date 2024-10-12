@@ -2,10 +2,10 @@ function toggleHide() {
    let btn = document.getElementById('btn');
    let para = document.getElementById('para');
    para.addEventListener('mouseover', function run(){
-      console.log("testing event12345")
+      console.log("mouse inside")
    })
    para.addEventListener('mouuseout', function run(){
-      console.log("testing event1")
+      console.log("mouse went outside")
    })
    // if (para.style.display !== 'none') {
    //     para.style.display = 'none';
