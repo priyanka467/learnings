@@ -5,7 +5,7 @@ function toggleHide() {
       alert("testing event")
    })
    para.addEventListener('mouuseout', function run(){
-      console.log("testing event")
+      console.log("testing event1")
    })
    // if (para.style.display !== 'none') {
    //     para.style.display = 'none';
