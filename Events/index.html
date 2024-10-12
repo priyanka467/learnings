@@ -1,5 +1,5 @@
 
-
+<!-- 
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
@@ -15,5 +15,32 @@
     <button id="btn" onclick="toggleHide()">Submit show/hide</button>
 </div>
 <script src="events.js"></script>
+    </body>
+</html> -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="events.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events learning</title>
+    </head>
+    <body>
+        <div>
+            <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt porro eaque a nemo necessitatibus error placeat, rerum est soluta minima illum eligendi ullam reiciendis iste saepe. Doloribus ab ipsam non.</p>
+            <button id="btn" onclick="toggleHide()">Submit show/hide</button>
+        </div>
+        <script>
+            function toggleHide() {
+                let btn = document.getElementById('btn');
+                let para = document.getElementById('para');  <!-- Corrected here -->
+                if (para.style.display !== 'none') {
+                    para.style.display = 'none';
+                } else {
+                    para.style.display = 'block';
+                }
+            }
+        </script>
     </body>
 </html>
