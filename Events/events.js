@@ -2,10 +2,10 @@
    let btn = document.getElementById('btn');
    let para = document.getElementById('para');
    para.addEventListener('mouseover', function run(){
-       alert('Mouse Inside')
+       console.log('Mouse Inside')
    });
    para.addEventListener('mouseout', function run(){
-      alert('Mouse now went outside')
+      console.log('Mouse now went outside')
   });
    function toggleHide() {
    if (para.style.display !== 'none') {
