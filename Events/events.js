@@ -7,9 +7,9 @@ function toggleHide() {
    para.addEventListener('mouuseout', function run(){
       console.log("mouse went outside")
    })
-   // if (para.style.display !== 'none') {
-   //     para.style.display = 'none';
-   // } else {
-   //     para.style.display = 'block';
-   // }
+   if (para.style.display !== 'none') {
+       para.style.display = 'none';
+   } else {
+       para.style.display = 'block';
+   }
 }
